@@ -17,4 +17,4 @@ MonoBehaviour:
     m_Targets:
     - m_ShapeType: 3
       m_Desired: 1
-      m_Tolerance: 0.1
+      m_Tolerance: 0.25
