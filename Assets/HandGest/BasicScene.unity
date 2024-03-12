@@ -1234,7 +1234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1570072249}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 9c2af843e2a2cc64aa91bb9eb25cbf75, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: f29c5bf3b21431844962f735fa794a1f, type: 2}
   m_TargetTransform: {fileID: 0}
   m_GesturePerformed:
     m_PersistentCalls:
@@ -5789,15 +5789,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 101035902}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 9c2af843e2a2cc64aa91bb9eb25cbf75, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: f29c5bf3b21431844962f735fa794a1f, type: 2}
   m_TargetTransform: {fileID: 0}
   m_GesturePerformed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_GestureEnded:
     m_PersistentCalls:
       m_Calls: []
-  m_MinimumHoldTime: 0.2
+  m_MinimumHoldTime: 0
   m_GestureDetectionInterval: 0.1
 --- !u!4 &1083218304 stripped
 Transform:
