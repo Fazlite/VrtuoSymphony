@@ -1275,7 +1275,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 0
+          m_StringArgument: ' '
           m_BoolArgument: 0
         m_CallState: 2
   m_MinimumHoldTime: 0
@@ -4142,7 +4142,7 @@ MonoBehaviour:
   m_HandMeshMaterial: {fileID: 2100000, guid: 727f87098255ad04987a60f5f08390bc, type: 2}
   m_DrawMeshes: 1
   m_DebugDrawPrefab: {fileID: 6507399986997092475, guid: 254b742d65a15d14b9df756ae77de868, type: 3}
-  m_DebugDrawJoints: 1
+  m_DebugDrawJoints: 0
   m_VelocityPrefab: {fileID: 8538602047018081646, guid: 629fd7882ec6bfc499a5fcf20035282b, type: 3}
   m_VelocityType: 2
 --- !u!114 &752928713 stripped
@@ -5507,7 +5507,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 0
+          m_StringArgument: ' '
           m_BoolArgument: 0
         m_CallState: 2
   m_MinimumHoldTime: 0
@@ -6042,7 +6042,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 0
+          m_StringArgument: ' '
           m_BoolArgument: 0
         m_CallState: 2
   m_MinimumHoldTime: 0
@@ -6364,6 +6364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1221417494}
   - component: {fileID: 1221417495}
+  - component: {fileID: 1221417496}
   m_Layer: 0
   m_Name: Do 4
   m_TagString: Untagged
@@ -6482,6 +6483,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1221417496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221417493}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052fed6c969ad014691e5325a4dd58ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Guitare: {fileID: 0}
+  Piano: {fileID: 0}
 --- !u!1 &1249617917
 GameObject:
   m_ObjectHideFlags: 0
@@ -7597,7 +7612,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 0
+          m_StringArgument: ' '
           m_BoolArgument: 0
         m_CallState: 2
   m_MinimumHoldTime: 0
